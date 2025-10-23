@@ -1,0 +1,7 @@
+Types: 
+Numbers, String, Boolean, Null, Undefined, Void, Object, Array, Typles..... 
+
+Special Types:
+Any, Never, Unknown....
+
+* All the types are lowercase
