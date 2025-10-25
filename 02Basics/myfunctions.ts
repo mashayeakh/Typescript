@@ -39,6 +39,24 @@ const loginUser=(name:string, email:string, isPaid:boolean=false)=>{
 
 loginUser("masa","masa@gmail.com");
 
+//* to make a func that returns explicetly a type like number 
+function getValue(val:number):number{
+    // return "hellor"; -> not possible as return type is number
+    return val;
+} 
+
+getValue(9);
+
+
+
+
+
+
+
+
+
+
+
 
 
 export {}
