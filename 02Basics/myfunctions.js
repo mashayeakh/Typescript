@@ -26,3 +26,14 @@ var loginUser = function (name, email, isPaid) {
     if (isPaid === void 0) { isPaid = false; }
 };
 loginUser("masa", "masa@gmail.com");
+//* to make a func that returns explicetly a type like number 
+function getValue(val) {
+    // return "hellor"; -> not possible as return type is number
+    return val;
+}
+getValue(9);
+//*lets do with the arrow func as well
+var getHello = function (greet) {
+    return "Hello " + greet;
+};
+console.log(getHello("masayeakh"));

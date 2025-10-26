@@ -48,11 +48,20 @@ function getValue(val:number):number{
 getValue(9);
 
 
+//*lets do with the arrow func as well
+const getHello =(greet:string):string=>{
+    return "Hello "+greet;
+}
+
+console.log(getHello("masayeakh"));
 
 
+//* never type - a function that never returns anything
+function throwErr (msg:string):never{
+    throw new Error(msg);
+}
 
-
-
+throwErr("Error occurred");
 
 
 
