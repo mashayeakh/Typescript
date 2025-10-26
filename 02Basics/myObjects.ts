@@ -61,4 +61,25 @@ type userInfo2 ={
     email?:string, 
 }
 
+    //* creating credit card details type and try to put in another fucntions with combination oeratore
+    
+
+    type cardNumber={
+        cardNumber:string;
+    }
+
+    type cardDate = {
+        cardDate:string;
+    }
+
+    //combining two types with & operator
+    type cardDetails = cardNumber& cardDate& {
+        cvv:number;
+    }
+
+
+
+
+
+
 export {}
