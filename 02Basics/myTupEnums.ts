@@ -31,7 +31,7 @@ const newUserInfo2:userInfo2 = ["masayeak23h", 2532];
 
 console.log(newUserInfo2)
 
-// newUserInfo2.push("hello"); // error: Property 'push' does not exist on type 'readonly [string, number]'.
+// newUserInfo2.push("hello"); // error: Property 'push' does not exist on type 'readonly [string, num  ber]'.
 
 
 export {};
