@@ -1,5 +1,5 @@
 //! Interface - defining the structure of an object
-//! it tells ts what properties an object should have and their types
+//! i t tellsts what properties an object should have and their types
 
 //*Example 
 interface User{
@@ -79,3 +79,31 @@ let result:MathOp={
 }
 
 console.log(result.operation());
+
+interface UserProfile{
+    email:string, 
+    userId:number, 
+    readonly dbId:number, 
+    googleAuth?:boolean,
+
+    //function
+    startTrail():string;
+    getCoupon(couponName:string):string
+}
+
+const mip:UserProfile={
+    email:"m@gmail.com",
+    userId: 12,
+    dbId: 4567,
+
+    startTrail:()=>{
+        return "Trail started";
+    },
+
+    getCoupon:(name:string)=>{
+        return `Coupon ${name} applied`;
+    }
+}
+
+console.log(mip.startTrail())
+console.log(mip.getCoupon("BLACKFRIDAY"))

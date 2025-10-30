@@ -48,17 +48,5 @@ hero = getHero();
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 //TEMP SOLUTION TO INGORE THE ERR
 export {};

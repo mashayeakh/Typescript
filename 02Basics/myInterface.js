@@ -34,3 +34,16 @@ var result = {
     }
 };
 console.log(result.operation());
+var mip = {
+    email: "m@gmail.com",
+    userId: 12,
+    dbId: 4567,
+    startTrail: function () {
+        return "Trail started";
+    },
+    getCoupon: function (name) {
+        return "Coupon ".concat(name, " applied");
+    }
+};
+console.log(mip.startTrail());
+console.log(mip.getCoupon("BLACKFRIDAY"));
